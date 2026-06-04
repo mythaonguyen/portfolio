@@ -3,189 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>My Nguyen · Data &amp; Analytics</title>
+    <meta name="description" content="My Nguyen — B.S. Computer Science & Statistics minor, Truman State University. Data analyst, full-stack & ML projects.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <nav>
-        <ul class="menu">
-            <li><a href="#about">about</a></li>
-            <li><a href="#proficiencies">proficiencies</a></li>
-            <li><a href="#projects">projects</a></li>
-            <li><a href="#contact">contact</a></li>
+    <div class="grain" aria-hidden="true"></div>
+
+    <nav class="nav">
+        <a href="#home" class="nav-logo">My Nguyen</a>
+        <ul class="nav-links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+        <a href="resume.pdf" class="btn btn-gold" target="_blank" rel="noopener">Resume</a>
     </nav>
-    
-    <section class="main">
-        <div class="main-content">
-            <div class="hero-image">
-                <img src="images/IMG_0112.jpg" alt="My Nguyen">
-            </div>
-            <div class="main-text">
-                <p class="greeting">Hello, I'm</p>
-                <h1 class="name">My Nguyen</h1>
-                <p class="title">Data Scientist</p>
-            </div>
-        </div>
-    </section>
-    
-    <section id="about" class="about-section">
-        <h2 class="section-heading">About</h2>
-        <div class="about-content">
-            <div class="qa-item">
-                <h3 class="question">Current progress</h3>
-                <p class="answer">I am pursuing a Bachelor's degree in Computer Science at Truman State University. I am interested in data science and machine learning, and I am currently looking for a summer 2026 internship in the field.</p>
-            </div>
-            <div class="qa-item">
-                <h3 class="question">Experience</h3>
-                <p class="answer">I have three-plus years of combined project and academic experience in data analytics, specifically focusing on Python, R, and SQL. I began learning Python and C++ basics during my freshman year and have consistently applied and deepened these skills over the last three years through coursework and self-directed projects. As a college senior, this background has allowed me to successfully complete multiple end-to-end projects that demonstrate proficiency in data processing, database integration, data analysis, and machine learning.</p>
-            </div>
-            <div class="qa-item">
-                <h3 class="question">Where are you based?</h3>
-                <p class="answer">Currently based in the greater St. Louis area, USA, with immediate availability to relocate to Southern California (LA, Irvine, Costa Mesa) or any other region. </p>
-            </div>
-        </div>
-    </section>
 
-    <section id="proficiencies" class="proficiencies">
-        <h2 class="section-heading">Proficiencies</h2>
-        <div class="proficiencies-container">
-            <div class="card">
-                <img src="images/data_analytic.png" alt="Avatar" style="width:50%" align-items: center;>
-                <div class="container">
-                  <h4><b>Data Analysis</b></h4> 
-                  <p>Collecting, cleaning, processing, and transforming raw data into actionable insights using specialized tools (Python/SQL) and statistical methods.</p> 
+    <header class="hero" id="home">
+        <div class="hero-inner reveal">
+            <div class="hero-text">
+                <p class="label">Truman State University · St. Louis, MO</p>
+                <h1 class="hero-name">Data analyst &amp;<br><em>builder</em> of tools that scale.</h1>
+                <p class="hero-bio">
+                    <strong>Graduate</strong>, Truman State University — B.S. <strong>Computer Science</strong>,
+                    minor in <strong>Statistics</strong>. I ship pipelines, dashboards, and apps — from R Shiny ops reports to AI text-to-SQL.
+                </p>
+                <div class="hero-cta">
+                    <a href="resume.pdf" class="btn btn-gold" target="_blank" rel="noopener">Download resume</a>
+                    <a href="#work" class="btn btn-outline">View projects</a>
                 </div>
             </div>
-            <div class="card">
-                <img src="images/data_visualization.png" alt="Avatar" style="width:50%" align-items: center;>
-                <div class="container">
-                  <h4><b>Data Visualization</b></h4> 
-                  <p>Translating data. trends into visual representations using R Shiny and Tableau to communicate insights effectively.</p> 
+            <div class="hero-aside">
+                <div class="portrait-wrap">
+                    <img src="images/IMG_0112.jpg" alt="My Nguyen" class="portrait">
                 </div>
-            </div>
-            <div class="card">
-                <img src="images/statistics.png" alt="Avatar" style="width:50%" align-items: center;>
-                <div class="container">
-                  <h4><b>Statistical Inference</b></h4> 
-                  <p>Performing hypothesis testing, confidence interval estimation, and regression analysis to draw meaningful conclusions from data.</p> 
-                </div>
-            </div>
-            <div class="card">
-                <img src="images/teamwork.png" alt="Avatar" style="width:50%" align-items: center;>
-                <div class="container">
-                  <h4><b>Collaboration</b></h4> 
-                  <p>Collaborating with team members to achieve common goals and solve complex problems.</p> 
-                </div>
-            </div>
-            <div class="card">
-                <img src="images/chat.png" alt="Avatar" style="width:50%" align-items: center;>
-                <div class="container">
-                  <h4><b>Customer Service</b></h4> 
-                  <p>Providing face-to-face or over the phone customer service to ensure customer satisfaction.</p> 
-                </div>
+                <ul class="award-list">
+                    <li><span class="award-dot"></span> 1st place · TrumanHacks 2021</li>
+                    <li><span class="award-dot"></span> Twilio Prize · PickHacks 2023</li>
+                </ul>
             </div>
         </div>
-    </section>
+        <div class="metric-row reveal delay-1">
+            <div class="metric"><strong>3+</strong><span>years analytics &amp; support</span></div>
+            <div class="metric"><strong>3k+</strong><span>users supported (helpdesk)</span></div>
+            <div class="metric"><strong>Python · R · SQL</strong><span>daily stack</span></div>
+            <div class="metric"><strong>Relocate</strong><span>St. Louis → nationwide</span></div>
+        </div>
+    </header>
 
-    <section id="projects" class="project-section">
-        <h2 class="section-heading">Projects</h2>
-        <div class="about-content">
-            <div class="qa-item">
-                <div class="question-header">
-                    <h3 class="question">Bioinformatics</h3>
-                    <a href="https://drive.google.com/drive/folders/1kYtw8YTBEoeg9QYuzcJqwKknhD3c3wiZ?usp=sharing" target="_blank" class="project-button">View Project Report</a>
+    <main>
+        <section id="work" class="block">
+            <header class="block-head reveal">
+                <span class="block-num">01</span>
+                <h2>Projects</h2>
+            </header>
+
+            <article class="card card-feature reveal">
+                <div class="card-visual">
+                    <img src="images/output_PitchQuery.png" alt="PitchQuery">
                 </div>
-                <h3 class="project-subtitle">Sequence Alignment Scoring</h3>
-                <p class="answer">Lead a team of 3 students to look at 120 Alpha Beta Hydrolases (ABH) and compose a custom substitution matrix according to the derivation steps of BLOSUM substitution matrix. The team will extract conserved blocks, calculate the log-odds ratio of observed to expected amino acid substitutions, and generate a specific 20×20 scoring matrix. The final deliverable is the new matrix and a report validating its effectiveness by comparing the quality of ABH sequence alignments against those achieved using a standard, general-purpose matrix. </p>
-                <img src="images/output_Bioinformatics.png" class = "project-image">
-            </div>
-        </div>
-        <div class="about-content">
-            <div class="qa-item">
-                <div class="question-header">
-                    <h3 class="question">Data Analysis and Reporting</h3>
-                    <a href="https://itsc.shinyapps.io/ITSC_May2025" target="_blank" class="project-button">View Project Report</a>
+                <div class="card-copy">
+                    <span class="tag">Featured</span>
+                    <h3>PitchQuery</h3>
+                    <p>Natural language → SQL → plain-English answers over a 12-table football database.</p>
+                    <div class="chips"><span>FastAPI</span><span>LangChain</span><span>MySQL</span></div>
+                    <a href="https://github.com/mythaonguyen/PitchQuery" class="text-link" target="_blank" rel="noopener">GitHub →</a>
                 </div>
-                <h3 class="project-subtitle">IT Service Center Yearly Report</h3>
-                <p class="answer">Build the FY 2024-2025 report for Call Center at Truman State University with various categories of calls such as outgoing (to technicians or customers) and incoming (operator, classroom emergency, and help desk). Deliver quantified metrics to address the performance of the Call Center across all operational categories. </p>
-                <img src="images/output_ITSC.png" class = "project-image">
-            </div>
-        </div>
-        <div class="about-content">
-            <div class="qa-item">
-                <div class="question-header">
-                    <h3 class="question">AI & Data Engineering</h3>
-                    <a href="https://github.com/mythaonguyen/PitchQuery" target="_blank" class="project-button">View on GitHub</a>
-                </div>
-                <h3 class="project-subtitle">PitchQuery — Football SQL Agent</h3>
-                <p class="answer">Built an AI-powered text-to-SQL web application that lets users ask natural-language questions about professional football data and receive SQL-backed answers. The system uses LangChain with an LLM to generate schema-aware MySQL queries against a 12-table Kaggle dataset, executes them via SQLAlchemy, and summarizes results in plain English. Delivered a FastAPI backend and interactive frontend with suggested questions, query history, and expandable result panels showing generated SQL and data tables.</p>
-                <img src="images/output_PitchQuery.png" class="project-image" alt="PitchQuery web application screenshot">
-            </div>
-        </div>
-    </section>
-    
-    <section id="contact" class="contact-section">
-        <h2 class="section-heading">Contact</h2>
-        <div class="contact-content">
-            <div class="contact-info">
-                <div class="contact-item">
-                    <h3>Email</h3>
-                    <a href="mailto:mythaonguyen.work@gmail.com">mythaonguyen.work@gmail.com</a>
-                </div>
-                <div class="contact-item">
-                    <h3>LinkedIn</h3>
-                    <a href="https://www.linkedin.com/in/mythaonguyen0305/" target="_blank">linkedin.com/in/mythaonguyen0305</a>
-                </div>
-                <div class="contact-item">
-                    <h3>GitHub</h3>
-                    <a href="https://github.com/mythaonguyen" target="_blank">github.com/yourusername</a>
-                </div>
-            </div>
-            <div class="contact-form-container">
-                <h3 class="form-title">Let's chat</h3>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="firstName">First Name</label>
-                            <input type="text" id="firstName" name="firstName" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="lastName">Last Name</label>
-                            <input type="text" id="lastName" name="lastName" required>
-                        </div>
+            </article>
+
+            <div class="card-grid">
+                <article class="card reveal">
+                    <div class="card-visual card-visual-sm">
+                        <img src="images/output_ITSC.png" alt="ITSC dashboard">
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
+                    <div class="card-copy">
+                        <h3>ITSC Call Center Dashboard</h3>
+                        <p>Executive R Shiny report — monthly call volume &amp; ops KPIs.</p>
+                        <div class="chips"><span>R Shiny</span><span>R</span></div>
+                        <a href="https://itsc.shinyapps.io/ITSC_May2025" class="text-link" target="_blank" rel="noopener">Live demo →</a>
                     </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
+                </article>
+
+                <article class="card reveal">
+                    <div class="card-visual card-visual-sm">
+                        <img src="images/output_Bioinformatics.png" alt="Bioinformatics">
                     </div>
-                    <button type="submit" class="project-button">Send Message</button>
+                    <div class="card-copy">
+                        <h3>Bioinformatics Scoring Matrix</h3>
+                        <p>Custom BLOSUM-style 20×20 matrix · 150+ sequences · team lead.</p>
+                        <div class="chips"><span>Python</span><span>R</span></div>
+                        <a href="https://drive.google.com/drive/folders/1kYtw8YTBEoeg9QYuzcJqwKknhD3c3wiZ?usp=sharing" class="text-link" target="_blank" rel="noopener">Report →</a>
+                    </div>
+                </article>
+
+                <article class="card reveal">
+                    <div class="card-copy card-copy-only">
+                        <h3>Scuba Helper</h3>
+                        <p>Full-stack dive planner on GCP — Flask, conservative safety algorithms.</p>
+                        <div class="chips"><span>Python</span><span>Flask</span><span>GCP</span></div>
+                        <a href="https://github.com/mythaonguyen" class="text-link" target="_blank" rel="noopener">GitHub →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="experience" class="block block-alt">
+            <header class="block-head reveal">
+                <span class="block-num">02</span>
+                <h2>Experience</h2>
+            </header>
+            <div class="timeline">
+                <article class="timeline-card reveal">
+                    <div class="timeline-meta">
+                        <h3>Reporting Analyst</h3>
+                        <span>Truman IT Service Center · May 2025 – Present</span>
+                    </div>
+                    <p>End-to-end R pipeline, executive dashboard, data-driven staffing decisions.</p>
+                </article>
+                <article class="timeline-card reveal">
+                    <div class="timeline-meta">
+                        <h3>Academic Tutor — Computer Science</h3>
+                        <span>Truman State University · Aug 2023 – Present</span>
+                    </div>
+                    <p>OOP, foundations, data structures &amp; algorithms — individualized study plans.</p>
+                </article>
+                <article class="timeline-card reveal">
+                    <div class="timeline-meta">
+                        <h3>Helpdesk Technician</h3>
+                        <span>Truman State University · Feb 2023 – Present</span>
+                    </div>
+                    <p>Tier 1 support for 3,000+ users · OTRS ticketing · triage &amp; escalation.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="stack" class="block">
+            <header class="block-head reveal">
+                <span class="block-num">03</span>
+                <h2>Skills</h2>
+            </header>
+            <div class="skills-wrap reveal">
+                <span>Python</span><span>R</span><span>SQL</span><span>Java</span><span>C++</span>
+                <span>Pandas</span><span>Flask</span><span>FastAPI</span><span>LangChain</span>
+                <span>MySQL</span><span>Docker</span><span>Git</span><span>Linux</span>
+                <span>Machine Learning</span><span>R Shiny</span><span>Tableau</span>
+            </div>
+        </section>
+
+        <section id="contact" class="block block-contact">
+            <div class="contact-box reveal">
+                <div>
+                    <span class="block-num">04</span>
+                    <h2>Get in touch</h2>
+                    <p class="contact-lead">Open to data, analytics, and software roles.</p>
+                    <div class="contact-row">
+                        <a href="mailto:mythaonguyen.work@gmail.com">mythaonguyen.work@gmail.com</a>
+                        <a href="tel:+19495311645">(949) 531-1645</a>
+                        <a href="https://www.linkedin.com/in/mythaonguyen0305/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://github.com/mythaonguyen" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </div>
+                <form class="mini-form" id="contactForm">
+                    <input type="text" id="firstName" placeholder="Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <textarea id="message" placeholder="Message" rows="3" required></textarea>
+                    <button type="submit" class="btn btn-gold btn-full">Send</button>
                 </form>
             </div>
-            <script>
-                document.getElementById('contactForm').addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    
-                    const firstName = document.getElementById('firstName').value;
-                    const lastName = document.getElementById('lastName').value;
-                    const email = document.getElementById('email').value;
-                    const message = document.getElementById('message').value;
-                    
-                    const subject = encodeURIComponent('Contact Form Submission from ' + firstName + ' ' + lastName);
-                    const body = encodeURIComponent('Name: ' + firstName + ' ' + lastName + '\n' +
-                                                    'Email: ' + email + '\n\n' +
-                                                    'Message:\n' + message);
-                    
-                    const mailtoLink = 'mailto:mythaonguyen.work@gmail.com?subject=' + subject + '&body=' + body;
-                    
-                    window.location.href = mailtoLink;
-                });
-            </script>
-        </div>
-    </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 My Nguyen · <a href="resume.pdf" target="_blank" rel="noopener">Resume</a></p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
