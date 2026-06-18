@@ -601,8 +601,9 @@ body {
 }
 
 .play-section {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     min-height: calc(100vh - 5rem);
     padding: 4rem clamp(1.25rem, 4vw, 2.5rem);
@@ -610,5 +611,6 @@ body {
 
 .play-section iframe {
     display: block;
+    margin: 0 auto;
     max-width: 100%;
 }
